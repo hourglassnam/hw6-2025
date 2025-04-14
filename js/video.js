@@ -9,7 +9,7 @@ window.addEventListener("load", function () {
   video.load();
 
   // 초기 볼륨 표시
-  document.querySelector("#volume").innerHTML = Math.round(video.volume * 100) + "%";
+  //document.querySelector("#volume").innerHTML = Math.round(video.volume * 100) + "%";
 });
 
 // Play
